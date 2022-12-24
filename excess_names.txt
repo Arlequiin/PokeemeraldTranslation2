@@ -1,0 +1,257 @@
+- Item name : CoquilleTréfonds ; Exceeds by 3
+- Item name : Super Repousse ; Exceeds by 1
+- Item name : Poussière Étoile ; Exceeds by 3
+- Item name : Morceau d’Étoile ; Exceeds by 3
+- Item name : Fossile Racine ; Exceeds by 1
+- Item name : Fossile Griffe ; Exceeds by 1
+- Item name : Fossile Armure ; Exceeds by 1
+- Item name : Bracelet Macho ; Exceeds by 1
+- Item name : Poudre Argentée ; Exceeds by 2
+- Item name : Rune Purifiante ; Exceeds by 2
+- Item name : Graine Miracle ; Exceeds by 1
+- Item name : Lunettes Noires ; Exceeds by 2
+- Item name : Ceinture Noire ; Exceeds by 1
+- Item name : Glace Éternelle ; Exceeds by 2
+- Item name : Cuillère Tordue ; Exceeds by 2
+- Item name : Bandeau Muscle ; Exceeds by 1
+- Item name : Lunettes Sages ; Exceeds by 1
+- Item name : Ceinture Force ; Exceeds by 1
+- Item name : Mouchoir Choix ; Exceeds by 1
+- Item name : Poignet Pouvoir ; Exceeds by 2
+- Item name : Ceinture Pouvoir ; Exceeds by 3
+- Item name : Lentille Pouvoir ; Exceeds by 3
+- Item name : Bandeau Pouvoir ; Exceeds by 2
+- Item name : Chaîne Pouvoir ; Exceeds by 1
+- Item name : Lunettes Choix ; Exceeds by 1
+- Item name : Plaque Toxicité ; Exceeds by 2
+- Item name : Plaque Insecte ; Exceeds by 1
+- Item name : Plaque Fantôme ; Exceeds by 1
+- Item name : Encens Bizarre ; Exceeds by 1
+- Item name : Passe Concours ; Exceeds by 1
+- Item name : Potion Secrète ; Exceeds by 1
+- Item name : Boîte Noigrume ; Exceeds by 1
+- Item name : Noigrume Rouge ; Exceeds by 1
+- Item name : Noigrume Jaune ; Exceeds by 1
+- Item name : Noigrume Blanc ; Exceeds by 1
+- Item name : Queue Ramoloss ; Exceeds by 1
+- Item name : Glas Transparent ; Exceeds by 3
+- Item name : Carte Magnétique ; Exceeds by 3
+- Item name : Partie Machine ; Exceeds by 1
+- Item name : Arc-en-Ci’Aile ; Exceeds by 1
+- Item name : Vélo de Course ; Exceeds by 1
+- Item name : Boîte Pokéblocs ; Exceeds by 2
+- Item name : Lettre à Pierre ; Exceeds by 2
+- Item name : Lunettes Sable ; Exceeds by 1
+- Item name : Lettre Demande ; Exceeds by 1
+- Item name : Lettre Réponse ; Exceeds by 1
+- Item name : Bande Étreinte ; Exceeds by 1
+- Item name : Joyau Électrik ; Exceeds by 1
+- Item name : Joyau Ténèbres ; Exceeds by 1
+- Item name : Fossile Plaque ; Exceeds by 1
+- Item name : Morceau Comète ; Exceeds by 1
+- Item name : Boîte Médailles ; Exceeds by 2
+- Item name : Vulné-Assurance ; Exceeds by 2
+- Item name : Veste de Combat ; Exceeds by 2
+- Item name : Sachet Senteur ; Exceeds by 1
+- Item name : Lichen Lumineux ; Exceeds by 2
+- Item name : Boule de Neige ; Exceeds by 1
+- Item name : Lunettes Filtre ; Exceeds by 2
+- Item name : Bibelot Bizarre ; Exceeds by 2
+- Item name : Galette Illumis ; Exceeds by 2
+- Item name : Fossile Mâchoire ; Exceeds by 3
+- Item name : Fossile Nageoire ; Exceeds by 3
+- Item name : Insigne de Kalos ; Exceeds by 3
+- Item name : Pierre Insolite ; Exceeds by 2
+- Item name : Boîte Lentilles ; Exceeds by 2
+- Item name : Ticket Beladonis ; Exceeds by 3
+- Item name : Passe Centrale ; Exceeds by 1
+- Item name : Lettre du Prof ; Exceeds by 1
+- Item name : Pierre Ordinaire ; Exceeds by 3
+- Item name : Trousse Beauté ; Exceeds by 1
+- Item name : Malle Penderie ; Exceeds by 1
+- Item name : Sablé Yantreizh ; Exceeds by 2
+- Item name : Plongeur Devon ; Exceeds by 1
+- Item name : Scaphandre Aqua ; Exceeds by 2
+- Item name : Méga-Pendentif ; Exceeds by 1
+- Item name : Méga-Manchette ; Exceeds by 1
+- Item name : Éclat Météorite ; Exceeds by 2
+- Item name : Capsule d’Argent ; Exceeds by 3
+- Item name : Marshadozélite ; Exceeds by 1
+- Item name : Sac Ingrédients ; Exceeds by 2
+- Item name : Masque du Prof ; Exceeds by 1
+- Item name : Flûte du Soleil ; Exceeds by 2
+- Item name : Flûte de la Lune ; Exceeds by 3
+- Item name : Message Mystère ; Exceeds by 2
+- Item name : Graine Électrik ; Exceeds by 2
+- Item name : Graine Psychique ; Exceeds by 3
+- Item name : Marshadozélite ; Exceeds by 1
+- Item name : Ultranécrozélite ; Exceeds by 3
+- Item name : Ultranécrozélite ; Exceeds by 3
+- Item name : Super Bracelet Z ; Exceeds by 3
+- Item name : Fleur 7 Couleurs ; Exceeds by 3
+- Item name : Cristal Z Althéo ; Exceeds by 3
+- Item name : Poké Ball donnée ; Exceeds by 3
+- Item name : Moti-Camouflage ; Exceeds by 2
+- Item name : Moti-Récup’ PV ; Exceeds by 1
+- Item name : Moti-Récup’ PP ; Exceeds by 1
+- Item name : Dédicace de Bob ; Exceeds by 2
+- Item name : Trousse de Soins ; Exceeds by 3
+- Item name : Poche à Renforts ; Exceeds by 3
+- Item name : Malle à Costumes ; Exceeds by 3
+- Item name : Poche de Capture ; Exceeds by 3
+- Item name : Poche de Combat ; Exceeds by 2
+- Item name : Baie Framby argentée ; Exceeds by 7
+- Item name : Baie Framby dorée ; Exceeds by 4
+- Item name : Baie Nanab argentée ; Exceeds by 6
+- Item name : Baie Nanab dorée ; Exceeds by 3
+- Item name : Baie Nanana argentée ; Exceeds by 7
+- Item name : Baie Nanana dorée ; Exceeds by 4
+- Item name : Carte Magnétique ; Exceeds by 3
+- Item name : Ressort Détendu ; Exceeds by 2
+- Item name : Boucle d’Oreille ; Exceeds by 3
+- Item name : Galet de Verre ; Exceeds by 1
+- Item name : Feuille Argentée ; Exceeds by 3
+- Item name : Boulette de Boue ; Exceeds by 3
+- Item name : Coquille du Sud ; Exceeds by 2
+- Item name : Lettre Végétale ; Exceeds by 2
+- Item name : Lettre Végétale ; Exceeds by 2
+- Item name : Bonbon Santé S ; Exceeds by 1
+- Item name : Bonbon Force S ; Exceeds by 1
+- Item name : Bonbon Armure S ; Exceeds by 2
+- Item name : Bonbon Esprit S ; Exceeds by 2
+- Item name : Bonbon Mental S ; Exceeds by 2
+- Item name : Bonbon Sprint S ; Exceeds by 2
+- Item name : Bonbon Santé M ; Exceeds by 1
+- Item name : Bonbon Force M ; Exceeds by 1
+- Item name : Bonbon Armure M ; Exceeds by 2
+- Item name : Bonbon Esprit M ; Exceeds by 2
+- Item name : Bonbon Mental M ; Exceeds by 2
+- Item name : Bonbon Sprint M ; Exceeds by 2
+- Item name : Bonbon Santé L ; Exceeds by 1
+- Item name : Bonbon Force L ; Exceeds by 1
+- Item name : Bonbon Armure L ; Exceeds by 2
+- Item name : Bonbon Esprit L ; Exceeds by 2
+- Item name : Bonbon Mental L ; Exceeds by 2
+- Item name : Bonbon Sprint L ; Exceeds by 2
+- Item name : Bonbon Bulbizarre ; Exceeds by 4
+- Item name : Bonbon Salamèche ; Exceeds by 3
+- Item name : Bonbon Carapuce ; Exceeds by 2
+- Item name : Bonbon Chenipan ; Exceeds by 2
+- Item name : Bonbon Aspicot ; Exceeds by 1
+- Item name : Bonbon Roucool ; Exceeds by 1
+- Item name : Bonbon Rattata ; Exceeds by 1
+- Item name : Bonbon Piafabec ; Exceeds by 2
+- Item name : Bonbon Pikachu ; Exceeds by 1
+- Item name : Bonbon Sabelette ; Exceeds by 3
+- Item name : Bonbon Nidoran♀ ; Exceeds by 2
+- Item name : Bonbon Nidoran♂ ; Exceeds by 2
+- Item name : Bonbon Mélofée ; Exceeds by 1
+- Item name : Bonbon Rondoudou ; Exceeds by 3
+- Item name : Bonbon Nosferapti ; Exceeds by 4
+- Item name : Bonbon Mystherbe ; Exceeds by 3
+- Item name : Bonbon Mimitoss ; Exceeds by 2
+- Item name : Bonbon Taupiqueur ; Exceeds by 4
+- Item name : Bonbon Miaouss ; Exceeds by 1
+- Item name : Bonbon Psykokwak ; Exceeds by 3
+- Item name : Bonbon Férosinge ; Exceeds by 3
+- Item name : Bonbon Caninos ; Exceeds by 1
+- Item name : Bonbon Ptitard ; Exceeds by 1
+- Item name : Bonbon Chétiflor ; Exceeds by 3
+- Item name : Bonbon Tentacool ; Exceeds by 3
+- Item name : Bonbon Racaillou ; Exceeds by 3
+- Item name : Bonbon Ramoloss ; Exceeds by 2
+- Item name : Bonbon Magnéti ; Exceeds by 1
+- Item name : Bonbon Canarticho ; Exceeds by 4
+- Item name : Bonbon Tadmorv ; Exceeds by 1
+- Item name : Bonbon Kokiyas ; Exceeds by 1
+- Item name : Bonbon Fantominus ; Exceeds by 4
+- Item name : Bonbon Soporifik ; Exceeds by 3
+- Item name : Bonbon Voltorbe ; Exceeds by 2
+- Item name : Bonbon Noeunoeuf ; Exceeds by 3
+- Item name : Bonbon Osselait ; Exceeds by 2
+- Item name : Bonbon Kicklee ; Exceeds by 1
+- Item name : Bonbon Excelangue ; Exceeds by 4
+- Item name : Bonbon Rhinocorne ; Exceeds by 4
+- Item name : Bonbon Leveinard ; Exceeds by 3
+- Item name : Bonbon Saquedeneu ; Exceeds by 4
+- Item name : Bonbon Kangourex ; Exceeds by 3
+- Item name : Bonbon Hypotrempe ; Exceeds by 4
+- Item name : Bonbon Poissirène ; Exceeds by 4
+- Item name : Bonbon M. Mime ; Exceeds by 1
+- Item name : Bonbon Insécateur ; Exceeds by 4
+- Item name : Bonbon Lippoutou ; Exceeds by 3
+- Item name : Bonbon Élektek ; Exceeds by 1
+- Item name : Bonbon Scarabrute ; Exceeds by 4
+- Item name : Bonbon Magicarpe ; Exceeds by 3
+- Item name : Bonbon Lokhlass ; Exceeds by 2
+- Item name : Bonbon Métamorph ; Exceeds by 3
+- Item name : Bonbon Porygon ; Exceeds by 1
+- Item name : Bonbon Amonita ; Exceeds by 1
+- Item name : Bonbon Ronflex ; Exceeds by 1
+- Item name : Bonbon Artikodin ; Exceeds by 3
+- Item name : Bonbon Électhor ; Exceeds by 2
+- Item name : Bonbon Sulfura ; Exceeds by 1
+- Item name : Bonbon Minidraco ; Exceeds by 3
+- Item name : Recommandation ; Exceeds by 1
+- Item name : Poignet Dynamax ; Exceeds by 2
+- Item name : Conserve de Bob ; Exceeds by 2
+- Item name : Conserve de Bach ; Exceeds by 3
+- Item name : Pommes de Terre ; Exceeds by 2
+- Item name : Kit de Camping ; Exceeds by 1
+- Item name : Bouclier Rouillé ; Exceeds by 3
+- Item name : Fossile Oiseau ; Exceeds by 1
+- Item name : Fossile Poisson ; Exceeds by 2
+- Item name : Fossile Dragon ; Exceeds by 1
+- Item name : Fossile Aileron ; Exceeds by 2
+- Item name : Fraise en Sucre ; Exceeds by 2
+- Item name : Trèfle en Sucre ; Exceeds by 2
+- Item name : Fleur en Sucre ; Exceeds by 1
+- Item name : Étoile en Sucre ; Exceeds by 2
+- Item name : Ruban en Sucre ; Exceeds by 1
+- Item name : Pomme Acidulée ; Exceeds by 1
+- Item name : Grosses Bottes ; Exceeds by 1
+- Item name : Assurance Échec ; Exceeds by 2
+- Item name : Chariot Distordu ; Exceeds by 3
+- Item name : Parapluie Solide ; Exceeds by 3
+- Item name : Bonbon Exp. XS ; Exceeds by 1
+- Item name : Bonbon Exp. XL ; Exceeds by 1
+- Item name : Bonbon Dynamax ; Exceeds by 1
+- Item name : Aromate Rigide ; Exceeds by 1
+- Item name : Aromate Mauvais ; Exceeds by 2
+- Item name : Aromate Assuré ; Exceeds by 1
+- Item name : Aromate Modeste ; Exceeds by 2
+- Item name : Aromate Foufou ; Exceeds by 1
+- Item name : Aromate Discret ; Exceeds by 2
+- Item name : Aromate Gentil ; Exceeds by 1
+- Item name : Aromate Prudent ; Exceeds by 2
+- Item name : Aromate Malpoli ; Exceeds by 2
+- Item name : Aromate Timide ; Exceeds by 1
+- Item name : Aromate Pressé ; Exceeds by 1
+- Item name : Aromate Jovial ; Exceeds by 1
+- Item name : Aromate Sérieux ; Exceeds by 2
+- Item name : Théière Ébréchée ; Exceeds by 3
+- Item name : Bouchons Audio ; Exceeds by 1
+- Item name : Fromage Meumeu ; Exceeds by 1
+- Item name : Curry Instantané ; Exceeds by 3
+- Item name : Poudre Gigamax ; Exceeds by 1
+- Item name : Charme Stabilité ; Exceeds by 3
+- Item name : Livre de Sonya ; Exceeds by 1
+- Item name : Moti-Catalogue ; Exceeds by 1
+- Item name : Branche Galanoa ; Exceeds by 2
+- Item name : Bracelet Galanoa ; Exceeds by 3
+- Item name : Carte Élégance ; Exceeds by 1
+- Item name : Pass Isolarmure ; Exceeds by 2
+- Item name : Charme Insigne ; Exceeds by 1
+- Item name : Rênes de l’Unité ; Exceeds by 3
+- Item name : Rênes de l’Unité ; Exceeds by 3
+- Item name : Couronne Galanoa ; Exceeds by 3
+- Item name : Note Légende 1 ; Exceeds by 1
+- Item name : Note Légende 2 ; Exceeds by 1
+- Item name : Note Légende 3 ; Exceeds by 1
+- Item name : Note Légende (?) ; Exceeds by 3
+- Item name : Pass Couronneige ; Exceeds by 3
+- Item name : Couronne en Bois ; Exceeds by 3
+- Item name : Pétale Brillant ; Exceeds by 2
+- Item name : Carotte Sombre ; Exceeds by 1
+- Item name : Graines Carotte ; Exceeds by 2
+- Item name : Rênes de l’Unité ; Exceeds by 3
