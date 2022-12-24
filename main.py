@@ -11,7 +11,7 @@ while True:
     except:
         error(2)
 if release:
-    with open("input/species.h",'w') as f:
+    with open("input/species_names.h",'w') as f:
         import requests
         f.write((requests.get('https://raw.githubusercontent.com/rh-hideout/pokeemerald-expansion/master/src/data/text/species_names.h')).text)
 while True:
@@ -42,7 +42,7 @@ if savefile:
      pass
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Species names
-with open("input/species.h") as f:
+with open("input/species_names.h") as f:
     content=f.read()
     content=content.replace('''("''',"<").replace('''")''',">").replace("'","’").replace("Flechinder","Fletchinder").replace("Crabminabl","Crabominable").replace("Blacephaln","Blacephalon").replace("Corvisquir","Corvisquire").replace("Corviknigh","Corviknight").replace("Barraskewd","Barraskewda").replace("Centiskorc","Centiskorch").replace("Polteageis","Polteageist").replace("Stonjourne","Stonjourner")
     result=re.findall("_<(.*)>,",content)
@@ -75,6 +75,10 @@ if savefile:
         if len(name)>10:
             with open('excess_names.txt','a') as f:
                     f.write(f"- Name : {name} ; Exceeds by {len(name)-10}\n")
-with open("output/species.h",'w') as f:
+with open("output/species_names.h",'w') as f:
     f.write(content)
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Moves
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------
+print(colored("End of the execution, thank you for using my script ! ~ Arlequiin",0,255,0))
+
