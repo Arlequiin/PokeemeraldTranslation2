@@ -20,6 +20,9 @@ if release:
     with open("input/move_names.h",'w') as f:
        import requests
        f.write((requests.get('https://raw.githubusercontent.com/rh-hideout/pokeemerald-expansion/master/src/data/text/move_names.h')).text)
+    with open("input/pokedex_entries.h",'w') as f:
+       import requests
+       f.write((requests.get('https://raw.githubusercontent.com/rh-hideout/pokeemerald-expansion/master/src/data/pokemon/pokedex_entries.h')).text)
 while True:
     try:
         lc={"1":"5","7":"9","6":"1","5":"3","2":"6","4":"8","3":"7"}[input(colored("Choose a language:\n_______\n1. French\n2. German\n3. Spanish\n4. Italian\n5. Korean\n6. Japanese\n7. English\n_______\n>>> ",150,150,50))]
@@ -192,7 +195,47 @@ def trad_move_names():
     print(colored("Done !",0,250,200))
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Pokedex entries
-def trad_pokedex_entries
+def trad_pokedex_entries():
+    print(colored("Translation of moves names...",0,200,200))
+    with open("input/pokedex_entries.h") as f:
+        content=f.read()
+        content=content.replace('''("''',"<").replace('''")''',">").replace("'","’")
+        result=re.findall(".categoryName = _<(.*)>,",content)
+        with open("data/genus.csv",newline='',encoding="utf-8") as csvfile:
+         reader = csv.DictReader(csvfile)
+         dico = {}
+         for row in reader:
+            if row['local_language_id']==lc:
+                a=row['genus']
+            if row['local_language_id']=='9':
+                dico[row['genus']]=a
+    dico['Unknown Pokémon']='Inconnu'
+    for entry in result:
+        try:
+         temp=dico[entry+' Pokémon']
+        except:
+            try:
+             entry=entry.replace("Ogre Scorp","Ogre Scorpion").replace("Fang Scorp","Fang Scorpion").replace("Intimidate","Intimidation").replace("Crystallize","Crystallizing").replace("Intertwine","Intertwining").replace("Illuminate","Illuminating").replace("Gloomdwellr","Gloomdweller")
+            except:
+                print(entry,"not found")
+        translated=dico[entry+" Pokémon"].replace("Pokémon ",'')
+        if len(translated)>11:
+          translated=translated.title().replace(" ","").replace("-","")
+          if len(translated)>11:
+            if handfix:
+                while len(translated)>11:
+                    translated=input(f"{translated} | Exceeds by {len(translated)-11}\nNew name >>> ")
+            translated=translated[:-len(translated)-11]#Remove this line if you want the names to not get automatically shorten
+            #elif savefile:
+            #    with open("excess_names.txt",'a') as f:
+            #        f.write(f"- Genus name : {translated} ; Exceeds by {len(translated)-11}\n")
+        content=content.replace(".categoryName = _<"+entry+">",'''".categoryName = _("'''+translated+'''")''')
+    content=content.replace("’","'")
+    with open("output/pokedex_entries.h",'w') as f:
+        f.write(content)
+
+        
+    print(colored("Done !",0,250,200))
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------
 #All
 def all():
