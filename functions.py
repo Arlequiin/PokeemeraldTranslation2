@@ -1,7 +1,8 @@
 def error(n):
     errors=["Uncaught exception, please contact Arlequiin#1853 or open an issue in https://github.com/Arlequiin/PokeemeraldTranslation2",
     "You shoud choose a number between 1 and 7",
-    "You shoud choose Y or N"
+    "You shoud choose Y or N",
+    "Protected by Captcha."
     ]
     print(colored("/!\ Error, "+errors[n],255,0,0))
 def colored(text,r=200,g=200,b=200):

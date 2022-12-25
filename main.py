@@ -1,7 +1,6 @@
 import re
 import csv
 from functions import *
-from webscrap import findmove
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Questions
 
@@ -18,9 +17,9 @@ if release:
     with open("input/items.h",'w') as f:
         import requests
         f.write((requests.get('https://raw.githubusercontent.com/rh-hideout/pokeemerald-expansion/master/src/data/items.h')).text)
-    with open("input/move_names.h",'w') as f:
-        import requests
-        f.write((requests.get('https://raw.githubusercontent.com/rh-hideout/pokeemerald-expansion/master/src/data/text/move_names.h')).text)
+    #with open("input/move_names.h",'w') as f:
+     #   import requests
+      #  f.write((requests.get('https://raw.githubusercontent.com/rh-hideout/pokeemerald-expansion/master/src/data/text/move_names.h')).text)
 while True:
     try:
         lc={"1":"5","7":"9","6":"1","5":"3","2":"6","4":"8","3":"7"}[input(colored("Choose a language:\n_______\n1. French\n2. German\n3. Spanish\n4. Italian\n5. Korean\n6. Japanese\n7. English\n_______\n>>> ",150,150,50))]
@@ -153,7 +152,7 @@ def trad_move_names():
     dico['-']='-'
     if lc=='5':
         dico['direclaw']='Grif.Funstes'
-        dico['psyshieldbash']='Sprint Bouc.'
+        dico['psyshieldbsh']='Sprint Bouc.'
         dico['powershift']='Éch. Force'
         dico['stoneaxe']='Hache Pierre'
         dico['ragingfury']='Gr. Courroux'
@@ -167,33 +166,29 @@ def trad_move_names():
         dico['bittermalice']='Cœur Rancœur'
         dico['shelter']='Mur Fumigène'
         dico['triplearrows']='TripleFlèche'
-        dico['infernalparade']='Cort.Funèbre'
+        dico['infrnlparade']='Cort.Funèbre'
         dico['ceaslessedge']='VaguesÀLames'
         dico['blekwndstorm']='T. Hivernal'
         dico['wildbltstorm']='T. Fulgurant'
         dico['sndsearstorm']='T. Pyrosable'
-        dico['sprngtidestorm']='T. Passionné'
+        dico['sprngtdestrm']='T. Passionné'
         dico['mystcalpower']='Force Mystik'
         dico['lunarblessng']='Prière Lun.'
         dico['takeheart']='Extravaill.'
         dico['thunderpunch']='Poing-Éclair'
-    result=[name.lower().replace(" ",'') for name in result]
+        dico['hyperspacehole']="TrouDimensi."
     for i in range(len(result)):
-        result[i]=result[i].lower().replace("hyprspace hole","hyperspace hole").replace("healng","healing")
         try:
-         content = content.replace("<"+result[i]+">",'''("'''+dico[result[i].replace(' ','').replace('-','')]+'''")''')
+         content = content.replace(result[i],dico[result[i].lower().replace(' ','').replace('-','')])
         except:
-          try:
-           content = content.replace("<"+result[i]+">",'''("'''+findmove(result[i])+'''")''')
-          except:
-            print(result[i])
+          print(result[i])
     if savefile:
         for name in dico.values():
-            if len(name)>12:
+            if len(name)>16:
                 with open('excess_names.txt','a') as f:
-                        f.write(f"- Move name : {name} ; Exceeds by {len(name)-12}\n")
+                        f.write(f"- Move name : {name} ; Exceeds by {len(name)-16}\n")
     with open("output/move_names.h",'w') as f:
-        f.write(content.replace("’","'"))
+        f.write(content.replace(">",'''")''').replace("<",'''("''').replace("’","'"))
     print(colored("Done !",0,250,200))
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------
 #All

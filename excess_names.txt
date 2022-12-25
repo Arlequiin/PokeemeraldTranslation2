@@ -1,152 +1,28 @@
-- Move name : Lance-Flammes ; Exceeds by 1
-- Move name : Danse Flammes ; Exceeds by 1
-- Move name : Ombre Nocturne ; Exceeds by 2
-- Move name : Regard Médusant ; Exceeds by 3
-- Move name : Lien du Destin ; Exceeds by 2
-- Move name : Tempête de Sable ; Exceeds by 4
-- Move name : Ailes d’Acier ; Exceeds by 1
-- Move name : Draco-Souffle ; Exceeds by 1
-- Move name : Puissance Cachée ; Exceeds by 4
-- Move name : Vitesse Extrême ; Exceeds by 3
-- Move name : Pouvoir Antique ; Exceeds by 3
-- Move name : Tour de Magie ; Exceeds by 1
-- Move name : Crochet Venin ; Exceeds by 1
-- Move name : Éclate Griffe ; Exceeds by 1
-- Move name : Poing Météore ; Exceeds by 1
-- Move name : Aromathérapie ; Exceeds by 1
-- Move name : Force Cosmique ; Exceeds by 2
-- Move name : Feuille Magik ; Exceeds by 1
-- Move name : Vœu Destructeur ; Exceeds by 3
-- Move name : Dernier Recours ; Exceeds by 3
-- Move name : Draco-Météore ; Exceeds by 1
-- Move name : Tempête Verte ; Exceeds by 1
-- Move name : Appel Attaque ; Exceeds by 1
-- Move name : Appel Défense ; Exceeds by 1
-- Move name : Partage Garde ; Exceeds by 1
-- Move name : Partage Force ; Exceeds by 1
-- Move name : Poudre Fureur ; Exceeds by 1
-- Move name : Force Ajoutée ; Exceeds by 1
-- Move name : Change Éclair ; Exceeds by 1
-- Move name : Souffle Glacé ; Exceeds by 1
-- Move name : Techno-Buster ; Exceeds by 1
-- Move name : Chant Antique ; Exceeds by 1
-- Move name : Ère Glaciaire ; Exceeds by 1
-- Move name : Charge Foudre ; Exceeds by 1
-- Move name : Coup Victoire ; Exceeds by 1
-- Move name : Fertilisation ; Exceeds by 1
-- Move name : Toile Gluante ; Exceeds by 1
-- Move name : Déluge Plasmique ; Exceeds by 4
-- Move name : Maléfice Sylvain ; Exceeds by 4
-- Move name : Tempête Florale ; Exceeds by 3
-- Move name : Lyophilisation ; Exceeds by 2
-- Move name : Voix Enjôleuse ; Exceeds by 2
-- Move name : Garde Florale ; Exceeds by 1
-- Move name : Champ Brumeux ; Exceeds by 1
-- Move name : Électrisation ; Exceeds by 1
-- Move name : Vent Féérique ; Exceeds by 1
-- Move name : Pouvoir Lunaire ; Exceeds by 3
-- Move name : Verrou Enchanté ; Exceeds by 3
-- Move name : Bouclier Royal ; Exceeds by 2
-- Move name : Orage Adamantin ; Exceeds by 3
-- Move name : Jet de Vapeur ; Exceeds by 1
-- Move name : TrouDimensionnel ; Exceeds by 4
-- Move name : Feu Ensorcelé ; Exceeds by 1
-- Move name : Brume Capiteuse ; Exceeds by 3
-- Move name : Ondes Étranges ; Exceeds by 2
-- Move name : Piège de Venin ; Exceeds by 2
-- Move name : Nuée de Poudre ; Exceeds by 2
-- Move name : Magné-Contrôle ; Exceeds by 2
-- Move name : Champ Électrifié ; Exceeds by 4
-- Move name : Éclat Magique ; Exceeds by 1
-- Move name : Mains Jointes ; Exceeds by 1
-- Move name : Regard Touchant ; Exceeds by 3
-- Move name : Frotte-Frimousse ; Exceeds by 4
-- Move name : Myria-Flèches ; Exceeds by 1
-- Move name : Force Chtonienne ; Exceeds by 4
-- Move name : Lumière du Néant ; Exceeds by 4
-- Move name : Onde Originelle ; Exceeds by 3
-- Move name : Lame Pangéenne ; Exceeds by 2
-- Move name : Draco-Ascension ; Exceeds by 3
-- Move name : Furie Dimension ; Exceeds by 3
-- Move name : Turbo-Charge Bulldozer ; Exceeds by 10
-- Move name : Combo Hyper-Furie ; Exceeds by 5
-- Move name : Piqué Supersonique ; Exceeds by 6
-- Move name : Déluge Causti-Toxique ; Exceeds by 9
-- Move name : Éruption Géo-Sismique ; Exceeds by 9
-- Move name : Apocalypse Gigalithique ; Exceeds by 11
-- Move name : Appel des Ombres Éternelles ; Exceeds by 15
-- Move name : Vrille Maximum ; Exceeds by 2
-- Move name : Pyro-Explosion Cataclysmique ; Exceeds by 16
-- Move name : Super Tourbillon Abyssal ; Exceeds by 12
-- Move name : Pétalexplosion Éblouissante ; Exceeds by 15
-- Move name : Fulguro-Lance Gigavolt ; Exceeds by 10
-- Move name : Psycho-Pulvérisation EX ; Exceeds by 11
-- Move name : Laser Cryogénique ; Exceeds by 5
-- Move name : Chaos Draconique ; Exceeds by 4
-- Move name : Trou Noir des Ombres ; Exceeds by 8
-- Move name : Impact Choupinova ; Exceeds by 5
-- Move name : Pikachute Foudroyante ; Exceeds by 9
-- Move name : Aria de l’Écume ; Exceeds by 3
-- Move name : Marteau de Glace ; Exceeds by 4
-- Move name : Cavalerie Lourde ; Exceeds by 4
-- Move name : Champ Psychique ; Exceeds by 3
-- Move name : Flamme Ultime ; Exceeds by 1
-- Move name : Sanction Suprême ; Exceeds by 4
-- Move name : Botte Sucrette ; Exceeds by 2
-- Move name : Draco-Marteau ; Exceeds by 1
-- Move name : Centrifugifle ; Exceeds by 1
-- Move name : Fureur des Plumes Spectrales ; Exceeds by 16
-- Move name : Dark Body Press ; Exceeds by 3
-- Move name : Symphonie des Ondines ; Exceeds by 9
-- Move name : Colère du Gardien d’Alola ; Exceeds by 13
-- Move name : Fauche-Âme des Sept Étoiles ; Exceeds by 15
-- Move name : Électro-Surf Survolté ; Exceeds by 9
-- Move name : Gare au Ronflex ; Exceeds by 3
-- Move name : Supernova Originelle ; Exceeds by 8
-- Move name : Rayon Spectral ; Exceeds by 2
-- Move name : Larme à l’Œil ; Exceeds by 1
-- Move name : Ire de la Nature ; Exceeds by 4
-- Move name : Coup Varia-Type ; Exceeds by 3
-- Move name : Giga-Tonnerre ; Exceeds by 1
-- Move name : Caboche-Kaboum ; Exceeds by 2
-- Move name : Apocalypsis Luminis ; Exceeds by 7
-- Move name : Hélio-Choc Dévastateur ; Exceeds by 10
-- Move name : Rayons Séléno-Explosifs ; Exceeds by 11
-- Move name : Patati-Patattrape ; Exceeds by 5
-- Move name : Hurlement des Roches-Lames ; Exceeds by 14
-- Move name : Dracacophonie Flamboyante ; Exceeds by 13
-- Move name : Évo-Chardasso ; Exceeds by 1
-- Move name : Écrous d’Poing ; Exceeds by 2
-- Move name : Canon Dynamax ; Exceeds by 1
-- Move name : Tir de Précision ; Exceeds by 4
-- Move name : Garde-à-Joues ; Exceeds by 1
-- Move name : Ultime Bastion ; Exceeds by 2
-- Move name : Poudre Magique ; Exceeds by 2
-- Move name : Draco-Flèches ; Exceeds by 1
-- Move name : Dracacophonie ; Exceeds by 1
-- Move name : Tambour Battant ; Exceeds by 3
-- Move name : Ballon Brûlant ; Exceeds by 2
-- Move name : Gladius Maximus ; Exceeds by 3
-- Move name : Acide Malique ; Exceeds by 1
-- Move name : Choc Émotionnel ; Exceeds by 3
-- Move name : Vapeur Féérique ; Exceeds by 3
-- Move name : Fontaine de Vie ; Exceeds by 3
-- Move name : Joute Astrale ; Exceeds by 1
-- Move name : Laser Infinimax ; Exceeds by 3
-- Move name : Vaste Pouvoir ; Exceeds by 1
-- Move name : Rafale Écailles ; Exceeds by 3
-- Move name : Laser Météore ; Exceeds by 1
-- Move name : Monte-Tension ; Exceeds by 1
-- Move name : Champlification ; Exceeds by 3
-- Move name : Ravage Rampant ; Exceeds by 2
-- Move name : Cent Rancunes ; Exceeds by 1
-- Move name : Esprit Frappeur ; Exceeds by 3
-- Move name : Selve Salvatrice ; Exceeds by 4
-- Move name : Torrent de Coups ; Exceeds by 4
-- Move name : Draco-Énergie ; Exceeds by 1
-- Move name : Regard Glaçant ; Exceeds by 2
-- Move name : Fureur Ardente ; Exceeds by 2
-- Move name : Coup Fulgurant ; Exceeds by 2
-- Move name : Lance de Glace ; Exceeds by 2
-- Move name : Éclat Spectral ; Exceeds by 2
-- Move name : Sort Sinistre ; Exceeds by 1
+- Move name : Turbo-Charge Bulldozer ; Exceeds by 6
+- Move name : Combo Hyper-Furie ; Exceeds by 1
+- Move name : Piqué Supersonique ; Exceeds by 2
+- Move name : Déluge Causti-Toxique ; Exceeds by 5
+- Move name : Éruption Géo-Sismique ; Exceeds by 5
+- Move name : Apocalypse Gigalithique ; Exceeds by 7
+- Move name : Appel des Ombres Éternelles ; Exceeds by 11
+- Move name : Pyro-Explosion Cataclysmique ; Exceeds by 12
+- Move name : Super Tourbillon Abyssal ; Exceeds by 8
+- Move name : Pétalexplosion Éblouissante ; Exceeds by 11
+- Move name : Fulguro-Lance Gigavolt ; Exceeds by 6
+- Move name : Psycho-Pulvérisation EX ; Exceeds by 7
+- Move name : Laser Cryogénique ; Exceeds by 1
+- Move name : Trou Noir des Ombres ; Exceeds by 4
+- Move name : Impact Choupinova ; Exceeds by 1
+- Move name : Pikachute Foudroyante ; Exceeds by 5
+- Move name : Fureur des Plumes Spectrales ; Exceeds by 12
+- Move name : Symphonie des Ondines ; Exceeds by 5
+- Move name : Colère du Gardien d’Alola ; Exceeds by 9
+- Move name : Fauche-Âme des Sept Étoiles ; Exceeds by 11
+- Move name : Électro-Surf Survolté ; Exceeds by 5
+- Move name : Supernova Originelle ; Exceeds by 4
+- Move name : Apocalypsis Luminis ; Exceeds by 3
+- Move name : Hélio-Choc Dévastateur ; Exceeds by 6
+- Move name : Rayons Séléno-Explosifs ; Exceeds by 7
+- Move name : Patati-Patattrape ; Exceeds by 1
+- Move name : Hurlement des Roches-Lames ; Exceeds by 10
+- Move name : Dracacophonie Flamboyante ; Exceeds by 9
