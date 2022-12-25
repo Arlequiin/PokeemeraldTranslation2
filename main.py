@@ -17,9 +17,9 @@ if release:
     with open("input/items.h",'w') as f:
         import requests
         f.write((requests.get('https://raw.githubusercontent.com/rh-hideout/pokeemerald-expansion/master/src/data/items.h')).text)
-    #with open("input/move_names.h",'w') as f:
-     #   import requests
-      #  f.write((requests.get('https://raw.githubusercontent.com/rh-hideout/pokeemerald-expansion/master/src/data/text/move_names.h')).text)
+    with open("input/move_names.h",'w') as f:
+       import requests
+       f.write((requests.get('https://raw.githubusercontent.com/rh-hideout/pokeemerald-expansion/master/src/data/text/move_names.h')).text)
 while True:
     try:
         lc={"1":"5","7":"9","6":"1","5":"3","2":"6","4":"8","3":"7"}[input(colored("Choose a language:\n_______\n1. French\n2. German\n3. Spanish\n4. Italian\n5. Korean\n6. Japanese\n7. English\n_______\n>>> ",150,150,50))]
@@ -191,15 +191,18 @@ def trad_move_names():
         f.write(content.replace(">",'''")''').replace("<",'''("''').replace("’","'"))
     print(colored("Done !",0,250,200))
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Pokedex entries
+def trad_pokedex_entries
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------
 #All
 def all():
     trad_pokemon_names()
     trad_items_names()
-    trad_move_names()
+    #trad_move_names()
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------
 while True:
     try:
-        files={'1':'trad_pokemon_names()','2':'trad_items_names()','3':'trad_move_names()','4':'all()'}[input(colored("Choose files that you want to translate :\n_______\n1. src/data/text/species_names.h\n2. src/data/items.h\n3. src/data/text/move_names.h\n4. All\n_______\n>>> ",150,150,50)).lower()]
+        files={'1':'trad_pokemon_names()','2':'trad_items_names()','3':'trad_pokedex_entries()','4':'all()'}[input(colored("Choose files that you want to translate :\n_______\n1. src/data/text/species_names.h\n2. src/data/items.h\n3. src/data/pokemon/pokedex_entries.h\n4. All\n_______\n>>> ",150,150,50)).lower()]
         break
     except:
         error(2)
