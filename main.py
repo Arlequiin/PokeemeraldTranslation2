@@ -1,9 +1,10 @@
 import re
 import csv
 from functions import *
-
+from webscrap import findmove
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Questions
+
 while True:
     try:
         release={'y':True,'n':False}[input(colored("Would you like to use last releases (of rhh) files as input ? [y/n]\n>>> ",150,150,50)).lower()]
@@ -17,6 +18,9 @@ if release:
     with open("input/items.h",'w') as f:
         import requests
         f.write((requests.get('https://raw.githubusercontent.com/rh-hideout/pokeemerald-expansion/master/src/data/items.h')).text)
+    with open("input/move_names.h",'w') as f:
+        import requests
+        f.write((requests.get('https://raw.githubusercontent.com/rh-hideout/pokeemerald-expansion/master/src/data/text/move_names.h')).text)
 while True:
     try:
         lc={"1":"5","7":"9","6":"1","5":"3","2":"6","4":"8","3":"7"}[input(colored("Choose a language:\n_______\n1. French\n2. German\n3. Spanish\n4. Italian\n5. Korean\n6. Japanese\n7. English\n_______\n>>> ",150,150,50))]
@@ -118,14 +122,89 @@ def trad_items_names():
         f.write(content)
     print(colored("Done !",0,250,200))
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Move names
+def trad_move_names():
+    print(colored("Translation of moves names...",0,200,200))
+    with open("input/move_names.h") as f:
+        content=f.read()
+        content=content.replace('''("''',"<").replace('''")''',">").replace("'","’")
+        result=re.findall("_<(.*)>,",content)
+    with open("data/moves_names.csv",newline='',encoding="utf-8") as csvfile:
+        reader = csv.DictReader(csvfile)
+        dico = {}
+        for row in reader:
+            if row['local_language_id'] == lc:
+                if len(row['name'])>12:
+                 a = (row['name'])
+                 if handfix:
+                    while len(a)>10:
+                        a=input(f"Actual name : {a} ; Exceeds by {len(a)-10}\nNew name : ")
+                 else:
+                    if lc=='5':
+                     pass
+                    else:
+                     if not savefile:
+                      pass
+                else:
+                 a = (row['name'])
+                 dexs = row["move_id"]
+            if row['local_language_id'] == "9":
+                dico[row['name'].lower().replace(' ','').replace('-','')] = a
+    dico['-']='-'
+    if lc=='5':
+        dico['direclaw']='Grif.Funstes'
+        dico['psyshieldbash']='Sprint Bouc.'
+        dico['powershift']='Éch. Force'
+        dico['stoneaxe']='Hache Pierre'
+        dico['ragingfury']='Gr. Courroux'
+        dico['wavecrash']='Aquatacle'
+        dico['chloroblast']='Herblast'
+        dico['mountaingale']='Bise Glacia.'
+        dico['victorydance']='DanseVictoir'
+        dico['headlongrush']='Assa.Frontal'
+        dico['barbbarrage']='Multitoxik'
+        dico['esperwing']='Ailes Psycho'
+        dico['bittermalice']='Cœur Rancœur'
+        dico['shelter']='Mur Fumigène'
+        dico['triplearrows']='TripleFlèche'
+        dico['infernalparade']='Cort.Funèbre'
+        dico['ceaslessedge']='VaguesÀLames'
+        dico['blekwndstorm']='T. Hivernal'
+        dico['wildbltstorm']='T. Fulgurant'
+        dico['sndsearstorm']='T. Pyrosable'
+        dico['sprngtidestorm']='T. Passionné'
+        dico['mystcalpower']='Force Mystik'
+        dico['lunarblessng']='Prière Lun.'
+        dico['takeheart']='Extravaill.'
+        dico['thunderpunch']='Poing-Éclair'
+    result=[name.lower().replace(" ",'') for name in result]
+    for i in range(len(result)):
+        result[i]=result[i].lower().replace("hyprspace hole","hyperspace hole").replace("healng","healing")
+        try:
+         content = content.replace("<"+result[i]+">",'''("'''+dico[result[i].replace(' ','').replace('-','')]+'''")''')
+        except:
+          try:
+           content = content.replace("<"+result[i]+">",'''("'''+findmove(result[i])+'''")''')
+          except:
+            print(result[i])
+    if savefile:
+        for name in dico.values():
+            if len(name)>12:
+                with open('excess_names.txt','a') as f:
+                        f.write(f"- Move name : {name} ; Exceeds by {len(name)-12}\n")
+    with open("output/move_names.h",'w') as f:
+        f.write(content.replace("’","'"))
+    print(colored("Done !",0,250,200))
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------
 #All
 def all():
     trad_pokemon_names()
     trad_items_names()
+    trad_move_names()
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------
 while True:
     try:
-        files={'1':'trad_pokemon_names()','2':'trad_items_names()','3':'all()'}[input(colored("Choose files that you want to translate :\n_______\n1. src/data/text/species_names.h\n2. src/data/items.h\n3. All\n_______\n>>> ",150,150,50)).lower()]
+        files={'1':'trad_pokemon_names()','2':'trad_items_names()','3':'trad_move_names()','4':'all()'}[input(colored("Choose files that you want to translate :\n_______\n1. src/data/text/species_names.h\n2. src/data/items.h\n3. src/data/text/move_names.h\n4. All\n_______\n>>> ",150,150,50)).lower()]
         break
     except:
         error(2)
