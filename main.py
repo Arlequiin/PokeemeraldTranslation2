@@ -23,6 +23,9 @@ if release:
     with open("input/pokedex_entries.h",'w') as f:
        import requests
        f.write((requests.get('https://raw.githubusercontent.com/rh-hideout/pokeemerald-expansion/master/src/data/pokemon/pokedex_entries.h')).text)
+    with open("input/pokedex_text.h",'w') as f:
+       import requests
+       f.write((requests.get('https://raw.githubusercontent.com/rh-hideout/pokeemerald-expansion/master/src/data/pokemon/pokedex_text.h')).text)
 while True:
     try:
         lc={"1":"5","7":"9","6":"1","5":"3","2":"6","4":"8","3":"7"}[input(colored("Choose a language:\n_______\n1. French\n2. German\n3. Spanish\n4. Italian\n5. Korean\n6. Japanese\n7. English\n_______\n>>> ",150,150,50))]
@@ -229,13 +232,36 @@ def trad_pokedex_entries():
             #elif savefile:
             #    with open("excess_names.txt",'a') as f:
             #        f.write(f"- Genus name : {translated} ; Exceeds by {len(translated)-11}\n")
-        content=content.replace(".categoryName = _<"+entry+">",'''".categoryName = _("'''+translated+'''")''')
-    content=content.replace("’","'")
+        content=content.replace(".categoryName = _<"+entry+">",'''.categoryName = _("'''+translated+'''")''')
+    content=content.replace("’","'").replace(">",'''")''').replace("<",'''("''')
     with open("output/pokedex_entries.h",'w') as f:
         f.write(content)
 
         
     print(colored("Done !",0,250,200))
+#-------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Pokedex descriptions
+def trad_battle_message():
+    with open("data/bmfr.h") as f:
+        source=f.readlines()
+    strings_source={}
+    for row in source:
+        result=re.search("sText_(.*) =",row)
+        strings_source[result.group(1)]=row
+    with open("input/battle_message.h") as f:
+        to_translate=f.readlines()
+    for i in range(len(to_translate)):
+        try:
+         result=re.search("sText_(.*) =",to_translate[i])
+         to_translate[i]=strings_source[result.group(1)]
+        except:
+            try:
+                result=re.search("sText_(.*) =",to_translate[i])
+                to_translate[i]=strings_source[result.group(1)]
+            except:
+             print(to_translate[i])
+    with open("output/battle_message.h") as f:
+        f.write('\n'.join(to_translate))
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------
 #All
 def all():
@@ -245,7 +271,7 @@ def all():
 #-------------------------------------------------------------------------------------------------------------------------------------------------------------
 while True:
     try:
-        files={'1':'trad_pokemon_names()','2':'trad_items_names()','3':'trad_pokedex_entries()','4':'all()'}[input(colored("Choose files that you want to translate :\n_______\n1. src/data/text/species_names.h\n2. src/data/items.h\n3. src/data/pokemon/pokedex_entries.h\n4. All\n_______\n>>> ",150,150,50)).lower()]
+        files={'1':'trad_pokemon_names()','2':'trad_items_names()','3':'trad_pokedex_entries()','4':'trad_battle_message()','5':'all()'}[input(colored("Choose files that you want to translate :\n_______\n1. src/data/text/species_names.h\n2. src/data/items.h\n3. src/data/pokemon/pokedex_entries.h\n4. src/battle_message.h (french only)\n5. All\n_______\n>>> ",150,150,50)).lower()]
         break
     except:
         error(2)
